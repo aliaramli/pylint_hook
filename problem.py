@@ -1,1 +1,2 @@
-pppp
+print "salah lagu"
+
