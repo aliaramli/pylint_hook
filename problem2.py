@@ -8,4 +8,5 @@ def empty_function():
 
 if __name__ == "__main__":
     main()
-    money  0
+    money  = "01"
+    sedondong = "true"
