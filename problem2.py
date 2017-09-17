@@ -10,4 +10,4 @@ if __name__ == "__main__":
     main()
     money = "01"
     flagship = "true and"
-    ERR ="tws"
+    ER="tws"
