@@ -17,12 +17,6 @@ in pylint_tools directory
 
 ``` ./setup_pylint_pre_commit.sh ```
 
-or you can manualy generate yourself using pylint
-
-``` cd <project_root_dir> ```
-
-``` pylint --generate_rc_file > .pylintrc ```
-
 now you are ready to test git commit (pre-commit validation)
 
 just make changes to problem.py
