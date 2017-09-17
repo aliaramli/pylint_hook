@@ -9,5 +9,5 @@ def empty_function():
 if __name__ == "__main__":
     main()
     money = "01"
-    flagship = "true and"
+    flagship="true and"
     ER="tws"
