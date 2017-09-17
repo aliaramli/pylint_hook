@@ -1,2 +1,39 @@
 # pylint_hook
 testing the https://github.com/sebdah/git-pylint-commit-hook
+
+theres two python file being tested here. one is quiz.py and another one is problem.py
+
+you may edit the problem.py to make the syntax wrong, function declaration wrong etc..
+
+ensure that you already have all the dependency python module in requirements.txt
+
+or in you virtual environment you can run 
+
+``` pip install -r requirements.txt ```
+
+to have the pylint configuration file setup, you need to run setup_pylint_pre_commit.sh
+
+in pylint_tools directory
+
+``` ./setup_pylint_pre_commit.sh ```
+
+or you can manualy generate yourself using pylint
+
+``` cd <project_root_dir> ```
+
+``` pylint --generate_rc_file > .pylintrc ```
+
+now you are ready to test git commit (pre-commit validation)
+
+just make changes to problem.py
+
+add file changes to stages
+
+and git commit -m "<message>"
+
+you should able to see error message..
+
+notice that i ve disabled all other warning. this will only check against code error...
+
+
+
