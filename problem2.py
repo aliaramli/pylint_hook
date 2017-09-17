@@ -8,5 +8,5 @@ def empty_function():
 
 if __name__ == "__main__":
     main()
-    money  = "01"
-    sedondong = "true"
+    money = "01"
+    flagship = "true and"
