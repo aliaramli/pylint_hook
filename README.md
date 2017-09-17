@@ -36,4 +36,6 @@ you should able to see error message..
 notice that i ve disabled all other warning. this will only check against code error...
 
 
+# NOTES
 
+I have noticed that if i append changes to .pylintrc somehow sometimes git-pylint-commit-hook didnt load the configuration. so i decided to make use the command parameter directly in .git/hook/pre-commit file.
